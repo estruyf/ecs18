@@ -9,12 +9,21 @@
           "manifest": "./src/webparts/slider/SliderWebPart.manifest.json"
         }
       ]
+    },
+    "documents-overview-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/documentsOverview/DocumentsOverviewWebPart.js",
+          "manifest": "./src/webparts/documentsOverview/DocumentsOverviewWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
     "SliderWebPartStrings": "lib/webparts/slider/loc/{locale}.js",
     "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
-    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js",
+    "DocumentsOverviewWebPartStrings": "lib/webparts/documentsOverview/loc/{locale}.js"
   }
 }
