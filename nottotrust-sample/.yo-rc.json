@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.1",
+    "libraryName": "nottotrust-sample",
+    "libraryId": "573cd2b9-99a6-43c4-b5d5-b43fcc6eeb8a",
+    "environment": "spo"
+  }
+}

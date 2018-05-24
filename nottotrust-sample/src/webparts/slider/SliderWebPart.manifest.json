@@ -1,0 +1,23 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "14c4ed61-adf3-43ab-9c56-4059a81e5581",
+  "alias": "SliderWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "Slider" },
+    "description": { "default": "Slider description" },
+    "officeFabricIconFontName": "ImageDiff",
+    "properties": {
+      "collectionData": [{
+        "title": "Making Sense of the SharePoint Framework for the Reluctant IT Pro",
+        "description": "@ ECS",
+        "image": "https://cdn.stocksnap.io/img-thumbs/960w/1CA9B8B930.jpg"
+      }]
+    }
+  }]
+}

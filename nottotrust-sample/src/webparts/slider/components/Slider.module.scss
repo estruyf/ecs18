@@ -1,0 +1,49 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.slider {
+  .newsHighlights {
+    height: 500px;
+    position: relative;
+
+    .slide {
+      opacity: 0;
+      position: absolute;
+      transition: opacity 1s;
+      z-index: 1;
+      width: 100%;
+
+      &.showing {
+        opacity: 1;
+        z-index: 2;
+      }
+
+      img {
+        max-width: 100%;
+        width: 100%;
+      }
+
+      .caption {
+        background-color: rgba($color: #000, $alpha: 0.9);
+        bottom: 30px;
+        color: #fff;
+        left: 30px;
+        padding: 15px 60px;
+        position: absolute;
+
+        p {
+          line-height: 30px;
+          margin: 0;
+          padding: 0;
+        }
+
+        p:first-child {
+          @include ms-fontSize-xl;
+        }
+
+        p:last-child {
+          @include ms-fontSize-l;
+        }
+      }
+    }
+  }
+}

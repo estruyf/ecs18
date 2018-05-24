@@ -1,0 +1,13 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "nottotrust-sample-client-side-solution",
+    "id": "573cd2b9-99a6-43c4-b5d5-b43fcc6eeb8a",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/nottotrust-sample.sppkg"
+  }
+}
